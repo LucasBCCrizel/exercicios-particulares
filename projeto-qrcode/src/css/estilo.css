@@ -1,0 +1,53 @@
+/*White: hsl(0, 0%, 100%)
+- Light gray: hsl(212, 45%, 89%)
+- Grayish blue:  hsl(220,15%, 55%)
+- Dark blue: hsl(218, 44%, 22%)
+*/
+
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(212, 45%, 89%);
+}
+
+.principal {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cartao {
+    width: 330px;
+    height: 520px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15;
+    gap: 20px;
+    border-radius: 20px;
+}
+
+.qrcode {
+    width: 300px;
+    height: 320px;
+    border-radius: 10px;
+}
+
+.titulo {
+    color: hsl(218, 44%, 22%);
+    font-size: 24px;
+    text-align: center;
+    max-width: 300px;
+    overflow: auto;
+}    
+
+.texto {
+    color: hsl(220, 15%, 55%);
+    text-align: center;
+    max-width: 250px;
+    overflow: auto;
+}
